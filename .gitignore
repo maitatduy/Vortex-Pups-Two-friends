@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+*.tsbuildinfo
+.DS_Store
+
+dist/
+.env
+.env.*
+!.env.example
+*.blend1
