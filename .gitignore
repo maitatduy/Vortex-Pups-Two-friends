@@ -1,12 +1,32 @@
-# Node
+# Dependencies
 node_modules/
-npm-debug.log*
-pnpm-debug.log*
-*.tsbuildinfo
-.DS_Store
 
+# Build output
 dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Env
 .env
 .env.*
 !.env.example
+*.local
+
+# Colyseus
+.colyseus-cloud.json
+.devmode.json
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Blender
 *.blend1
