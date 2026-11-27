@@ -21,8 +21,6 @@
   },
   "include": [
     "src",
-    "test",
-    "loadtest",
     "vite.config.ts"
   ]
 }
