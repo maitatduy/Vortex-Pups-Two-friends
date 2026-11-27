@@ -1,11 +1,17 @@
 {
-  "name": "@vortex-pups-two-friends/shared",
-  "version": "0.0.1",
-  "private": true,
-  "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
-  "scripts": { "typecheck": "tsc --noEmit" },
-  "dependencies": { "@dimforge/rapier3d-compat": "latest" },
-  "devDependencies": { "typescript": "latest" }
+    "name": "@vortex-pups-two-friends/shared",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "scripts": {
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@dimforge/rapier3d-compat": "latest"
+    },
+    "devDependencies": {
+        "typescript": "latest"
+    }
 }

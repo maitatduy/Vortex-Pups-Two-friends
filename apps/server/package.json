@@ -1,29 +1,29 @@
 {
-  "private": true,
-  "name": "@vortex-pups-two-friends/server",
-  "version": "0.1.0",
-  "type": "module",
-  "engines": {
-    "node": ">= 22.0.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
-    "typecheck": "tsc --noEmit"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^22.13.13",
-    "typescript": "^5.0.4",
-    "vite": "^8.2.1"
-  },
-  "dependencies": {
-    "@colyseus/playground": "^0.18.3",
-    "@colyseus/schema": "^5.0.14",
-    "@dimforge/rapier3d-compat": "^0.21.0",
-    "@vortex-pups-two-friends/shared": "workspace:*",
-    "colyseus": "^0.18.2",
-    "express": "^5.2.1"
-  }
+    "private": true,
+    "name": "@vortex-pups-two-friends/server",
+    "version": "0.1.0",
+    "type": "module",
+    "engines": {
+        "node": ">= 22.0.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "start": "vite",
+        "build": "vite build",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/node": "^22.13.13",
+        "typescript": "^5.0.4",
+        "vite": "^8.2.1"
+    },
+    "dependencies": {
+        "@colyseus/playground": "^0.18.3",
+        "@colyseus/schema": "^5.0.14",
+        "@dimforge/rapier3d-compat": "^0.21.0",
+        "@vortex-pups-two-friends/shared": "workspace:*",
+        "colyseus": "^0.18.2",
+        "express": "^5.2.1"
+    }
 }
