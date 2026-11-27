@@ -1,0 +1,13 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# colyseus lists @colyseus/uwebsockets-transport as an optional dep. It pulls uWebSockets.js
+# from GitHub, which pnpm blocks by default. We use the default WebSocket transport,
+# so remove it from the dependency tree.
+overrides:
+  "@colyseus/uwebsockets-transport": "-"
+
+allowBuilds:
+  esbuild: true
+  msgpackr-extract: true
